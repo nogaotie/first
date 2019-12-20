@@ -1,7 +1,7 @@
 const http = require('http');
 
-const hostname = 'http://xiangsheng.gearhostpreview.com/';
-const port = 80;
+const hostname = 'localhost';
+const port = 443;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
